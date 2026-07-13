@@ -1,0 +1,155 @@
+.countdown {
+
+    background: #F8F4EF;
+
+    padding: 110px 20px;
+
+    text-align: center;
+
+}
+
+.counter-grid {
+
+    width: 100%;
+
+    max-width: 820px;
+
+    margin: 55px auto 45px;
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+
+}
+
+.counter-card {
+
+    background: white;
+
+    border-radius: 22px;
+
+    padding: 35px 20px;
+
+    box-shadow: 0 15px 35px rgba(0,0,0,.08);
+
+    transition: .3s;
+
+}
+
+.counter-card:hover{
+
+    transform: translateY(-5px);
+
+}
+
+.counter-card span {
+
+    display: block;
+
+    font-size: 60px;
+
+    color: #B88B5E;
+
+    font-family: "Cormorant Garamond", serif;
+
+    margin-bottom: 10px;
+
+}
+
+.counter-card p {
+
+    margin: 0;
+
+    font-size: 13px;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    color: #6C533E;
+
+}
+
+.count-message {
+
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    font-size: 20px;
+
+    color: #7A6553;
+
+    line-height: 1.7;
+
+}
+
+/* ===================== */
+/* TABLET */
+/* ===================== */
+
+@media(max-width:992px){
+
+    .counter-grid{
+
+        max-width:600px;
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* ===================== */
+/* MOBILE */
+/* ===================== */
+
+@media(max-width:768px){
+
+    .countdown{
+
+        padding:90px 20px;
+
+    }
+
+    .counter-grid{
+
+        max-width:340px;
+
+        gap:18px;
+
+        margin:40px auto;
+
+    }
+
+    .counter-card{
+
+        padding:28px 18px;
+
+    }
+
+    .counter-card span{
+
+        font-size:44px;
+
+    }
+
+    .counter-card p{
+
+        font-size:12px;
+
+        letter-spacing:2px;
+
+    }
+
+    .count-message{
+
+        max-width:320px;
+
+        font-size:17px;
+
+    }
+
+}

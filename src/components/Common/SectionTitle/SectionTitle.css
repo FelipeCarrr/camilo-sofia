@@ -1,0 +1,69 @@
+.title{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:72px;
+
+    font-weight:500;
+
+    color:#6C533E;
+
+    text-align:center;
+
+    margin:0 0 20px;
+
+    line-height:1.1;
+
+}
+
+.subtitle{
+
+    max-width:700px;
+
+    margin:0 auto;
+
+    text-align:center;
+
+    color:#7A6553;
+
+    font-size:22px;
+
+    line-height:1.7;
+
+}
+
+/* Tablet */
+
+@media(max-width:992px){
+
+    .title{
+
+        font-size:60px;
+
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .title{
+
+        font-size:48px;
+
+        margin-bottom:15px;
+
+    }
+
+    .subtitle{
+
+        max-width:320px;
+
+        font-size:18px;
+
+        line-height:1.6;
+
+    }
+
+}

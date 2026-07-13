@@ -1,0 +1,55 @@
+.gallery{
+
+    background:white;
+
+}
+
+.gallery-grid{
+
+    margin-top:70px;
+
+    columns:3 280px;
+
+    column-gap:18px;
+
+}
+
+.gallery-item{
+
+    margin-bottom:18px;
+
+    cursor:pointer;
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.gallery-item img{
+
+    width:100%;
+
+    display:block;
+
+    transition:.45s;
+
+}
+
+.gallery-item:hover img{
+
+    transform:scale(1.08);
+
+}
+
+@media(max-width:768px){
+
+    .gallery-grid{
+
+        columns:1;
+
+    }
+
+}
