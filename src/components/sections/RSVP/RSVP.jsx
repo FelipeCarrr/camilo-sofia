@@ -9,7 +9,7 @@ export default function RSVP() {
     const [attendance, setAttendance] = useState(true);
     const [guests, setGuests] = useState(1);
 
-    const phone = "573001112233"; // CAMBIAR POR EL NÚMERO REAL
+    const phone = "573223034487"; // CAMBIAR POR EL NÚMERO REAL
 
     const increaseGuests = () => {
 
