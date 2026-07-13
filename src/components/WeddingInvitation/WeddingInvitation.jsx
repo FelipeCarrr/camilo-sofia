@@ -5,8 +5,8 @@ import Story from "../sections/Story/Story";
 import Events from "../sections/Events/Events";
 import MusicPlayer from "../Common/MusicPlayer/MusicPlayer";
 import Gallery from "../sections/Gallery/Gallery";
-import DressCode from "../Sections/DressCode/DressCode";
-import RSVP from "../Sections/RSVP/RSVP";
+import DressCode from "../sections/DressCode/DressCode";
+import RSVP from "../sections/RSVP/RSVP";
 import Footer from "../layout/Footer/Footer";
 
 export default function WeddingInvitation(){
