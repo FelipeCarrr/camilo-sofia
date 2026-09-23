@@ -43,7 +43,7 @@ export default function Navbar() {
 
                 <div className="logo">
 
-                    Camilo <span>&</span> Sofía
+                    Cesar Camilo <span>&</span> Laura Sofía
 
                 </div>
 

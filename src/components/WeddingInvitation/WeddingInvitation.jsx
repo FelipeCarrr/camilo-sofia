@@ -3,6 +3,7 @@ import Hero from "../sections/Hero/Hero";
 import Countdown from "../sections/Countdown/Countdown";
 import Story from "../sections/Story/Story";
 import Events from "../sections/Events/Events";
+import Gift from "../sections/Gift/Gift";
 import MusicPlayer from "../Common/MusicPlayer/MusicPlayer";
 import Gallery from "../sections/Gallery/Gallery";
 import DressCode from "../sections/DressCode/DressCode";
@@ -26,6 +27,8 @@ export default function WeddingInvitation() {
             <Story />
 
             <Events />
+
+            <Gift />
 
             <Gallery />
 

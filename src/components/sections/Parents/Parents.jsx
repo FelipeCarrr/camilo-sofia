@@ -4,17 +4,17 @@ import SectionTitle from "../../Common/SectionTitle/SectionTitle";
 
 const parents = [
     {
-        title: "Padres de Camilo",
+        title: "Padres de Cesar Camilo",
         names: [
-            "Nombre del padre de Camilo",
-            "Nombre de la madre de Camilo",
+            "Luis Cesar Torrado Quintero ✝",
+            "Margarita Carrascal Toro",
         ],
     },
     {
-        title: "Padres de Sofía",
+        title: "Padres de Laura Sofía",
         names: [
-            "Nombre del padre de Sofía",
-            "Nombre de la madre de Sofía",
+            "Jhon Wiliam Pulido Lizcano",
+            "Olga Sofía Calderon Muñoz",
         ],
     },
 ];

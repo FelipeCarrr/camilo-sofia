@@ -1,0 +1,205 @@
+.gift-section {
+    position: relative;
+    overflow: hidden;
+    padding: 100px 24px;
+    background: linear-gradient(
+        135deg,
+        #f4f8fc 0%,
+        #edf4fa 50%,
+        #f8fbfe 100%
+    );
+    text-align: center;
+}
+
+.gift-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.gift-icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto 28px;
+    border: 1px solid rgba(116, 151, 181, 0.35);
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 8px 25px rgba(76, 111, 143, 0.08);
+}
+
+.gift-icon {
+    font-size: 35px;
+    color: #7899b8;
+}
+
+.gift-eyebrow {
+    margin: 0 0 12px;
+    color: #7899b8;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.gift-title {
+    margin: 0;
+    color: #526f8c;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(38px, 6vw, 58px);
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.gift-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 25px auto;
+    color: #a5bdcf;
+}
+
+.gift-divider span {
+    display: block;
+    width: 55px;
+    height: 1px;
+    background: #b8cbd9;
+}
+
+.gift-divider svg {
+    font-size: 13px;
+}
+
+.gift-message {
+    max-width: 560px;
+    margin: 0 auto 18px;
+    color: #65798b;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.gift-message-secondary {
+    font-size: 20px;
+}
+
+.gift-closing {
+    margin: 32px 0 5px;
+    color: #8298aa;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.gift-names {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    box-sizing: border-box;
+
+    color: #526f8c;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(24px, 5vw, 32px);
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.3;
+
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+/* Elementos decorativos */
+.gift-decoration {
+    position: absolute;
+    z-index: 0;
+    color: rgba(120, 153, 184, 0.3);
+    font-size: 45px;
+    pointer-events: none;
+    user-select: none;
+}
+
+.gift-decoration-left {
+    top: 22%;
+    left: 12%;
+}
+
+.gift-decoration-right {
+    right: 8%;
+    bottom: 8%;
+    font-size: 38px;
+}
+
+/* Ajustes para celulares */
+@media (max-width: 600px) {
+    .gift-section {
+        padding: 75px 22px;
+    }
+
+    .gift-icon-wrapper {
+        width: 72px;
+        height: 72px;
+        margin-bottom: 24px;
+    }
+
+    .gift-icon {
+        font-size: 29px;
+    }
+
+    .gift-eyebrow {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .gift-message {
+        font-size: 19px;
+        line-height: 1.7;
+    }
+
+    .gift-message-secondary {
+        font-size: 18px;
+    }
+
+    .gift-names {
+        font-size: clamp(23px, 6vw, 28px);
+        padding: 0 8px;
+        line-height: 1.35;
+    }
+
+    .gift-decoration-left {
+        top: 10%;
+        left: 5%;
+        font-size: 30px;
+    }
+
+    .gift-decoration-right {
+        right: 5%;
+        bottom: 4%;
+        font-size: 30px;
+    }
+}
+
+/* Ajustes para pantallas muy pequeñas */
+@media (max-width: 360px) {
+    .gift-section {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .gift-names {
+        font-size: 23px;
+        padding: 0 6px;
+    }
+
+    .gift-decoration-right {
+        right: 3%;
+        bottom: 2%;
+        font-size: 25px;
+    }
+}
