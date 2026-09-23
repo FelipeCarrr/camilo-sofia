@@ -1,0 +1,34 @@
+:root{
+
+    /* Colores */
+
+    --primary:#8FC5F2;
+    --primary-light:#C4E2FA;
+
+    --secondary:#F4F9FE;
+
+    --dark:#29445D;
+
+    --text:#49677F;
+
+    --white:#FFFFFF;
+
+    --glass:rgba(255,255,255,.75);
+
+    /* Sombras */
+
+    --shadow:0 15px 35px rgba(0,0,0,.08);
+
+    /* Bordes */
+
+    --radius:20px;
+
+    /* Espaciados */
+
+    --section-padding:120px;
+
+    /* Transiciones */
+
+    --transition:.35s;
+
+}

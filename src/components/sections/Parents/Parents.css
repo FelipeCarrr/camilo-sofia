@@ -1,0 +1,159 @@
+.parents {
+    position: relative;
+    overflow: hidden;
+    padding: 90px 20px;
+    background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f4f9fe 50%,
+        #ffffff 100%
+    );
+}
+
+.parents .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.parents-intro {
+    max-width: 680px;
+    margin: 35px auto 50px;
+    text-align: center;
+}
+
+.parents-ornament {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 18px;
+    border-radius: 50%;
+    color: #6ca9dc;
+    background: #e5f2fd;
+    font-size: 23px;
+}
+
+.parents-intro p {
+    margin: 0;
+    color: #536b80;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.parents-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.parent-card {
+    position: relative;
+    padding: 35px 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #d5e8f8;
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(78, 125, 164, 0.1);
+}
+
+.parent-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    border-radius: 0 0 8px 8px;
+    background: #91c5ef;
+}
+
+.parent-card-label {
+    display: block;
+    margin-bottom: 22px;
+    color: #6a9fc9;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.parent-names {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.parent-names p {
+    margin: 0;
+    color: #304b63;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.parents-message {
+    max-width: 700px;
+    margin: 55px auto 0;
+    text-align: center;
+}
+
+.parents-message-line {
+    display: block;
+    width: 70px;
+    height: 1px;
+    margin: 0 auto 25px;
+    background: #9fc9ec;
+}
+
+.parents-message p {
+    margin: 0;
+    color: #3e5c76;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.parents-message-heart {
+    display: inline-block;
+    margin-top: 22px;
+    color: #85b9e5;
+    font-size: 20px;
+}
+
+@media (max-width: 650px) {
+    .parents {
+        padding: 65px 18px;
+    }
+
+    .parents-intro {
+        margin: 25px auto 35px;
+    }
+
+    .parents-intro p {
+        font-size: 15px;
+    }
+
+    .parents-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .parent-card {
+        padding: 28px 20px;
+    }
+
+    .parent-names p {
+        font-size: 20px;
+    }
+
+    .parents-message {
+        margin-top: 40px;
+    }
+
+    .parents-message p {
+        font-size: 22px;
+    }
+}
