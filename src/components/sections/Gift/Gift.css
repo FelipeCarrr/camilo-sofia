@@ -1,7 +1,7 @@
 .gift-section {
     position: relative;
     overflow: hidden;
-    padding: 100px 24px;
+    padding: 65px 24px;
     background: linear-gradient(
         135deg,
         #f4f8fc 0%,
@@ -24,9 +24,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 88px;
-    height: 88px;
-    margin: 0 auto 28px;
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 20px;
     border: 1px solid rgba(116, 151, 181, 0.35);
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.75);
@@ -34,12 +34,12 @@
 }
 
 .gift-icon {
-    font-size: 35px;
+    font-size: 31px;
     color: #7899b8;
 }
 
 .gift-eyebrow {
-    margin: 0 0 12px;
+    margin: 0 0 8px;
     color: #7899b8;
     font-size: 12px;
     font-weight: 600;
@@ -50,7 +50,7 @@
     margin: 0;
     color: #526f8c;
     font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: clamp(38px, 6vw, 58px);
+    font-size: clamp(36px, 6vw, 54px);
     font-weight: 500;
     line-height: 1.15;
 }
@@ -60,13 +60,13 @@
     align-items: center;
     justify-content: center;
     gap: 14px;
-    margin: 25px auto;
+    margin: 18px auto;
     color: #a5bdcf;
 }
 
 .gift-divider span {
     display: block;
-    width: 55px;
+    width: 45px;
     height: 1px;
     background: #b8cbd9;
 }
@@ -77,20 +77,20 @@
 
 .gift-message {
     max-width: 560px;
-    margin: 0 auto 18px;
+    margin: 0 auto 14px;
     color: #65798b;
     font-family: "Cormorant Garamond", Georgia, serif;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 1.65;
 }
 
 .gift-message-secondary {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .gift-closing {
-    margin: 32px 0 5px;
+    margin: 24px 0 5px;
     color: #8298aa;
     font-size: 14px;
     font-style: italic;
@@ -103,14 +103,12 @@
     margin: 0 auto;
     padding: 0 12px;
     box-sizing: border-box;
-
     color: #526f8c;
     font-family: "Cormorant Garamond", Georgia, serif;
     font-size: clamp(24px, 5vw, 32px);
     font-style: italic;
     font-weight: 500;
     line-height: 1.3;
-
     overflow-wrap: break-word;
     word-break: normal;
 }
@@ -120,36 +118,36 @@
     position: absolute;
     z-index: 0;
     color: rgba(120, 153, 184, 0.3);
-    font-size: 45px;
+    font-size: 40px;
     pointer-events: none;
     user-select: none;
 }
 
 .gift-decoration-left {
-    top: 22%;
-    left: 12%;
+    top: 20%;
+    left: 8%;
 }
 
 .gift-decoration-right {
-    right: 8%;
-    bottom: 8%;
-    font-size: 38px;
+    right: 7%;
+    bottom: 6%;
+    font-size: 34px;
 }
 
 /* Ajustes para celulares */
 @media (max-width: 600px) {
     .gift-section {
-        padding: 75px 22px;
+        padding: 48px 20px;
     }
 
     .gift-icon-wrapper {
-        width: 72px;
-        height: 72px;
-        margin-bottom: 24px;
+        width: 64px;
+        height: 64px;
+        margin-bottom: 17px;
     }
 
     .gift-icon {
-        font-size: 29px;
+        font-size: 27px;
     }
 
     .gift-eyebrow {
@@ -157,39 +155,52 @@
         letter-spacing: 3px;
     }
 
+    .gift-title {
+        font-size: clamp(34px, 8vw, 44px);
+    }
+
+    .gift-divider {
+        margin: 15px auto;
+    }
+
     .gift-message {
-        font-size: 19px;
-        line-height: 1.7;
+        font-size: 18px;
+        line-height: 1.55;
+        margin-bottom: 12px;
     }
 
     .gift-message-secondary {
-        font-size: 18px;
+        font-size: 17px;
+    }
+
+    .gift-closing {
+        margin-top: 20px;
+        font-size: 13px;
     }
 
     .gift-names {
         font-size: clamp(23px, 6vw, 28px);
         padding: 0 8px;
-        line-height: 1.35;
+        line-height: 1.3;
     }
 
     .gift-decoration-left {
-        top: 10%;
-        left: 5%;
-        font-size: 30px;
+        top: 8%;
+        left: 4%;
+        font-size: 27px;
     }
 
     .gift-decoration-right {
-        right: 5%;
-        bottom: 4%;
-        font-size: 30px;
+        right: 4%;
+        bottom: 3%;
+        font-size: 27px;
     }
 }
 
-/* Ajustes para pantallas muy pequeñas */
+/* Pantallas muy pequeñas */
 @media (max-width: 360px) {
     .gift-section {
-        padding-right: 16px;
-        padding-left: 16px;
+        padding: 42px 16px;
     }
 
     .gift-names {
@@ -200,6 +211,6 @@
     .gift-decoration-right {
         right: 3%;
         bottom: 2%;
-        font-size: 25px;
+        font-size: 24px;
     }
 }

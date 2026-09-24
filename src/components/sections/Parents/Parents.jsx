@@ -13,7 +13,7 @@ const parents = [
     {
         title: "Padres de Laura Sofía",
         names: [
-            "Jhon Wiliam Pulido Lizcano",
+            "Jhon William Pulido Lizcano",
             "Olga Sofía Calderon Muñoz",
         ],
     },
@@ -24,7 +24,7 @@ export default function Parents() {
         <section className="parents section" id="parents">
             <div className="container">
                 <SectionTitle
-                    title="Con la bendición de Dios"
+                    title="Con la Bendición de Dios"
                     subtitle="Y de nuestros padres"
                 />
 

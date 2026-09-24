@@ -79,6 +79,12 @@ export default function Events() {
 
                                 <p>
 
+                                    {event.date}
+
+                                </p>
+                                <br />
+                                <p>
+
                                     {event.time}
 
                                 </p>

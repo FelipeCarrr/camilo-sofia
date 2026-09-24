@@ -1,6 +1,6 @@
 .rsvp {
     position: relative;
-    padding: 100px 20px;
+    padding: 65px 20px;
     overflow: hidden;
     background:
         radial-gradient(
@@ -29,14 +29,14 @@
     position: relative;
     width: 100%;
     max-width: 560px;
-    margin: 42px auto 0;
-    padding: 8px;
+    margin: 28px auto 0;
+    padding: 7px;
     overflow: hidden;
     border: 1px solid rgba(163, 194, 218, 0.45);
-    border-radius: 24px;
+    border-radius: 22px;
     background: rgba(255, 255, 255, 0.92);
     box-shadow:
-        0 25px 70px rgba(78, 117, 148, 0.1),
+        0 20px 55px rgba(78, 117, 148, 0.1),
         0 4px 15px rgba(78, 117, 148, 0.04);
 }
 
@@ -66,8 +66,8 @@
 
 .rsvp-card-inner {
     position: relative;
-    padding: 44px 48px 38px;
-    border-radius: 18px;
+    padding: 32px 38px 30px;
+    border-radius: 16px;
     background:
         radial-gradient(
             ellipse at top right,
@@ -78,7 +78,7 @@
 }
 
 .rsvp-card-heading {
-    margin-bottom: 30px;
+    margin-bottom: 22px;
     text-align: center;
 }
 
@@ -86,7 +86,7 @@
     display: inline-block;
     color: #739cbd;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 20px;
+    font-size: 19px;
     font-style: italic;
     letter-spacing: 1.5px;
 }
@@ -101,13 +101,13 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
-    margin: 17px 0 15px;
+    margin: 13px 0;
     color: #a7cce6;
     font-size: 11px;
 }
 
 .rsvp-heading-divider span {
-    width: 44px;
+    width: 40px;
     height: 1px;
     background: #d5e5f0;
 }
@@ -116,30 +116,30 @@
     margin: 0;
     color: #344f67;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(28px, 5vw, 36px);
+    font-size: clamp(27px, 5vw, 35px);
     font-weight: 400;
     line-height: 1.2;
 }
 
 .rsvp-card-heading p {
-    margin: 12px 0 0;
+    margin: 9px 0 0;
     color: #8394a3;
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 13px;
+    line-height: 1.6;
 }
 
 .rsvp-invitation-info {
-    margin: 0 0 28px;
-    padding: 22px 18px 19px;
+    margin: 0 0 22px;
+    padding: 18px 16px;
     border: 1px solid #e2edf5;
-    border-radius: 14px;
+    border-radius: 13px;
     background: linear-gradient(135deg, #f8fbfe, #f1f7fc);
     text-align: center;
 }
 
 .rsvp-info-label {
     display: block;
-    margin-bottom: 7px;
+    margin-bottom: 6px;
     color: #8497a7;
     font-size: 11px;
     font-weight: 600;
@@ -151,7 +151,7 @@
     margin: 0;
     color: #486984;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
     overflow-wrap: anywhere;
 }
@@ -159,7 +159,7 @@
 .rsvp-info-line {
     display: flex;
     justify-content: center;
-    margin: 12px 0 9px;
+    margin: 10px 0 8px;
 }
 
 .rsvp-info-line span {
@@ -182,7 +182,7 @@
 
 .rsvp-field-label {
     display: block;
-    margin-bottom: 9px;
+    margin-bottom: 7px;
     color: #526b80;
     font-size: 13px;
     font-weight: 600;
@@ -190,10 +190,10 @@
 
 .rsvp-name-input {
     width: 100%;
-    min-height: 52px;
-    padding: 14px 16px;
+    min-height: 48px;
+    padding: 12px 15px;
     border: 1px solid #dce8f1;
-    border-radius: 12px;
+    border-radius: 11px;
     outline: none;
     background: #fbfdff;
     color: #3f5c74;
@@ -217,13 +217,13 @@
 }
 
 .attendance-label {
-    margin-top: 27px;
+    margin-top: 21px;
 }
 
 .attendance-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    gap: 10px;
 }
 
 .attendance-buttons .option {
@@ -231,11 +231,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    min-height: 94px;
-    padding: 16px 12px;
+    gap: 8px;
+    min-height: 82px;
+    padding: 13px 10px;
     border: 1px solid #e0eaf2;
-    border-radius: 14px;
+    border-radius: 13px;
     background: #fbfdff;
     color: #6f8496;
     font-family: inherit;
@@ -265,8 +265,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 27px;
-    height: 27px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background: #edf2f6;
     color: #94a8b8;
@@ -283,11 +283,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
-    margin-top: 24px;
-    padding: 18px 18px;
+    gap: 14px;
+    margin-top: 20px;
+    padding: 15px;
     border: 1px solid #e0ebf4;
-    border-radius: 14px;
+    border-radius: 13px;
     background: #f6faff;
     transition: opacity 0.2s ease;
 }
@@ -299,7 +299,7 @@
 .guest-counter-copy {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
 }
 
 .guest-counter-copy label {
@@ -317,15 +317,15 @@
 .counter {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 12px;
 }
 
 .counter button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 32px;
-    height: 32px;
+    width: 31px;
+    height: 31px;
     flex-shrink: 0;
     border: none;
     border-radius: 50%;
@@ -353,7 +353,7 @@
     min-width: 22px;
     color: #3e5c75;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 26px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -361,13 +361,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 11px;
+    gap: 10px;
     width: 100%;
-    min-height: 54px;
-    margin-top: 24px;
-    padding: 15px 20px;
+    min-height: 50px;
+    margin-top: 20px;
+    padding: 13px 18px;
     border: none;
-    border-radius: 12px;
+    border-radius: 11px;
     background: #22b56b;
     color: white;
     box-shadow: 0 8px 18px rgba(34, 181, 107, 0.17);
@@ -398,7 +398,7 @@
 }
 
 .rsvp-footnote {
-    margin: 17px 0 0;
+    margin: 13px 0 0;
     color: #9aaab7;
     font-size: 11px;
     line-height: 1.6;
@@ -409,8 +409,8 @@
     display: flex;
     align-items: flex-start;
     gap: 9px;
-    margin-top: 17px;
-    padding: 12px 14px;
+    margin-top: 14px;
+    padding: 11px 13px;
     border: 1px solid #f2d5d5;
     border-radius: 10px;
     background: #fff5f5;
@@ -433,8 +433,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-    padding: 40px 10px;
+    gap: 12px;
+    padding: 30px 10px;
     color: #8499aa;
     font-size: 13px;
 }
@@ -459,7 +459,7 @@
 }
 
 .rsvp-state-message {
-    padding: 30px 12px 35px;
+    padding: 25px 12px 28px;
     text-align: center;
 }
 
@@ -467,19 +467,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 46px;
-    height: 46px;
-    margin: 0 auto 16px;
+    width: 44px;
+    height: 44px;
+    margin: 0 auto 13px;
     border-radius: 50%;
     background: #fff0f0;
     color: #bd7373;
 }
 
 .rsvp-state-message h4 {
-    margin: 0 0 9px;
+    margin: 0 0 8px;
     color: #4b657b;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 500;
 }
 
@@ -492,7 +492,7 @@
 }
 
 .rsvp-thank-you {
-    padding: 12px 4px 8px;
+    padding: 10px 4px 7px;
     text-align: center;
     animation: rsvp-appear 0.45s ease both;
 }
@@ -513,30 +513,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 68px;
-    height: 68px;
-    margin: 0 auto 21px;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto 17px;
     border: 1px solid #d7e9f6;
     border-radius: 50%;
     background: linear-gradient(145deg, #f2f9ff, #e4f2fc);
     color: #83b7dc;
-    font-size: 24px;
+    font-size: 23px;
     box-shadow: 0 8px 25px rgba(126, 177, 214, 0.13);
 }
 
 .rsvp-thank-you-overline {
     color: #86a9c4;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 17px;
+    font-size: 16px;
     font-style: italic;
     letter-spacing: 1.4px;
 }
 
 .rsvp-thank-you h4 {
-    margin: 12px 0 14px;
+    margin: 10px 0 12px;
     color: #3e5b74;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(27px, 5vw, 34px);
+    font-size: clamp(26px, 5vw, 32px);
     font-weight: 400;
 }
 
@@ -545,17 +545,17 @@
     margin: 0 auto;
     color: #8294a3;
     font-size: 14px;
-    line-height: 1.9;
+    line-height: 1.75;
 }
 
 .rsvp-confirmation-summary {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    margin: 25px auto 0;
-    padding: 18px;
+    gap: 7px;
+    margin: 20px auto 0;
+    padding: 15px;
     border: 1px solid #dceaf4;
-    border-radius: 13px;
+    border-radius: 12px;
     background: #f5faff;
 }
 
@@ -570,13 +570,13 @@
 .rsvp-confirmation-summary strong {
     color: #527b9b;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 500;
 }
 
 .rsvp-thank-you-note {
-    margin: 28px 0 0;
-    padding-top: 20px;
+    margin: 22px 0 0;
+    padding-top: 17px;
     border-top: 1px solid #e7eff5;
 }
 
@@ -588,7 +588,7 @@
 }
 
 .rsvp-thank-you-note p {
-    margin: 10px 0 0;
+    margin: 8px 0 0;
     color: #9aa9b5;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 14px;
@@ -597,8 +597,8 @@
 }
 
 .rsvp-edit-button {
-    margin-top: 24px;
-    padding: 11px 18px;
+    margin-top: 20px;
+    padding: 10px 17px;
     border: 1px solid #d5e5f0;
     border-radius: 9px;
     background: white;
@@ -618,30 +618,30 @@
 
 @media (max-width: 600px) {
     .rsvp {
-        padding: 70px 14px;
+        padding: 48px 14px;
     }
 
     .rsvp-card {
-        margin-top: 30px;
+        margin-top: 23px;
         padding: 6px;
-        border-radius: 20px;
+        border-radius: 18px;
     }
 
     .rsvp-card-inner {
-        padding: 30px 18px 27px;
-        border-radius: 15px;
+        padding: 25px 16px 22px;
+        border-radius: 14px;
     }
 
     .rsvp-card-heading {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .rsvp-card-kicker {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .rsvp-card-heading h3 {
-        font-size: 29px;
+        font-size: 27px;
     }
 
     .rsvp-card-heading p {
@@ -649,27 +649,27 @@
     }
 
     .rsvp-invitation-info {
-        margin-bottom: 23px;
-        padding: 19px 12px 17px;
+        margin-bottom: 19px;
+        padding: 16px 12px;
     }
 
     .rsvp-invitation-info h4 {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     .attendance-buttons {
-        gap: 9px;
+        gap: 8px;
     }
 
     .attendance-buttons .option {
-        min-height: 84px;
-        padding: 13px 7px;
+        min-height: 76px;
+        padding: 11px 6px;
         font-size: 12px;
     }
 
     .guest-counter {
-        gap: 10px;
-        padding: 15px 12px;
+        gap: 9px;
+        padding: 13px 11px;
     }
 
     .guest-counter-copy label {
@@ -682,27 +682,27 @@
     }
 
     .counter {
-        gap: 10px;
+        gap: 9px;
     }
 
     .counter button {
-        width: 29px;
-        height: 29px;
+        width: 28px;
+        height: 28px;
     }
 
     .counter output {
         min-width: 18px;
-        font-size: 24px;
+        font-size: 23px;
     }
 
     .whatsapp-btn {
-        min-height: 51px;
-        padding: 13px 10px;
+        min-height: 48px;
+        padding: 12px 9px;
         font-size: 13px;
     }
 
     .rsvp-thank-you h4 {
-        font-size: 29px;
+        font-size: 27px;
     }
 
     .rsvp-thank-you-message {
@@ -717,8 +717,8 @@
     }
 
     .rsvp-card-inner {
-        padding-right: 13px;
-        padding-left: 13px;
+        padding-right: 12px;
+        padding-left: 12px;
     }
 
     .attendance-buttons .option {

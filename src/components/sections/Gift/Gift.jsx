@@ -40,11 +40,6 @@ export default function Gift() {
                     ustedes y contar con su cariño.
                 </p>
 
-                <p className="gift-message gift-message-secondary">
-                    Si desean acompañarnos con un detalle, agradecemos de
-                    corazón su cariño a través de una lluvia de sobres.
-                </p>
-
                 <p className="gift-closing">
                     Con mucho amor,
                 </p>

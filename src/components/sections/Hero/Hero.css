@@ -1,191 +1,173 @@
-.hero{
-
-    min-height:100vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    position:relative;
-
-    background-size:cover;
-
-    background-position:center;
-
-    background-repeat:no-repeat;
-
+.hero {
+    min-height: 90vh;
+    min-height: 90svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 35px 20px;
+    box-sizing: border-box;
 }
 
-.hero::before{
-
-    content:"";
-
-    position:absolute;
-
-    inset:0;
-
-    background:rgba(0,0,0,.30);
-
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.30);
 }
 
-.hero-overlay{
-
-    position:relative;
-
-    z-index:2;
-
-    text-align:center;
-
-    color:white;
-
+.hero-overlay {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 
-.hero-small{
-
-    font-size:13px;
-
-    letter-spacing:8px;
-
-    margin-bottom:25px;
-
-    font-weight:600;
-
+.hero-small {
+    font-size: 13px;
+    letter-spacing: 8px;
+    margin-bottom: 18px;
+    font-weight: 600;
 }
 
-.desktop-name{
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
+.desktop-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.desktop-name h1{
-
-    margin:0;
-
-    font-family:"Cormorant Garamond",serif;
-
-    font-size:90px;
-
-    font-weight:400;
-
-    line-height:.95;
-
+.desktop-name h1 {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 0.95;
 }
 
-.ampersand{
-
-    font-family:"Cormorant Garamond",serif;
-
-    font-size:70px;
-
-    line-height:1;
-
-    margin:-18px 0;
-
+.ampersand {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 70px;
+    line-height: 1;
+    margin: -18px 0;
 }
 
-.mobile-name{
-
-    display:none;
-
+.mobile-name {
+    display: none;
 }
 
-.hero-date{
-
-    margin-top:30px;
-
-    font-size:23px;
-
-    letter-spacing:3px;
-
-    font-weight:600;
-
+.hero-date {
+    margin-top: 22px;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-weight: 600;
 }
 
-.hero-quote{
-
-    max-width:620px;
-
-    margin:25px auto 40px;
-
-    font-size:23px;
-
-    line-height:1.7;
-
-    font-style:italic;
-
-    font-family:"Cormorant Garamond",serif;
-
+.hero-quote {
+    max-width: 620px;
+    margin: 18px auto 28px;
+    font-size: 23px;
+    line-height: 1.5;
+    font-style: italic;
+    font-family: "Cormorant Garamond", serif;
 }
 
-.hero button{
-
-    width:245px;
-
-    height:56px;
-
-    border:none;
-
-    border-radius:40px;
-
-    background:white;
-
-    color:#49677F;
-
-    cursor:pointer;
-
-    font-size:15px;
-
+.hero button {
+    width: 245px;
+    height: 52px;
+    border: none;
+    border-radius: 40px;
+    background: white;
+    color: #49677F;
+    cursor: pointer;
+    font-size: 15px;
 }
 
-.scroll-down{
-
-    margin-top:45px;
-
-    font-size:22px;
-
+.scroll-down {
+    margin-top: 28px;
+    font-size: 22px;
 }
 
-@media(max-width:768px){
-
-    .desktop-name{
-
-        display:none;
-
+@media (max-width: 768px) {
+    .hero {
+        min-height: 80vh;
+        min-height: 80svh;
+        padding: 30px 18px;
     }
 
-    .mobile-name{
-
-        display:block;
-
-        font-family:"Cormorant Garamond",serif;
-
-        font-size:58px;
-
-        font-weight:400;
-
-        margin:0;
-
+    .desktop-name {
+        display: none;
     }
 
-    .hero-date{
-
-        font-size:18px;
-
+    .mobile-name {
+        display: block;
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(42px, 11vw, 58px);
+        font-weight: 400;
+        line-height: 1.05;
+        margin: 0;
     }
 
-    .hero-quote{
-
-        max-width:320px;
-
-        font-size:18px;
-
+    .hero-small {
+        font-size: 11px;
+        letter-spacing: 5px;
+        margin-bottom: 15px;
     }
 
+    .hero-date {
+        margin-top: 18px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .hero-quote {
+        max-width: 320px;
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 16px auto 24px;
+    }
+
+    .hero button {
+        width: 220px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .scroll-down {
+        margin-top: 22px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero {
+        min-height: 75vh;
+        min-height: 75svh;
+        padding: 25px 14px;
+    }
+
+    .mobile-name {
+        font-size: clamp(36px, 10.5vw, 44px);
+    }
+
+    .hero-small {
+        font-size: 10px;
+        letter-spacing: 4px;
+    }
+
+    .hero-date {
+        font-size: 16px;
+    }
+
+    .hero-quote {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .scroll-down {
+        margin-top: 18px;
+    }
 }

@@ -21,6 +21,8 @@ const wedding = {
 
         address: "Barrio La Soledad, Bogotá D.C.",
 
+        date: "24 de Octubre de 2026",
+
         time: "4:00 PM",
 
         maps: "https://www.google.com/maps/dir//Parroquia+San+Alfonso+Mar%C3%ADa+de+Ligorio+-+Se%C3%B1or+de+los+Milagros,+Cra.+28+%23+39-27,+Bogot%C3%A1/@8.2542592,-73.351168,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8e3f9bd547a4492b:0xc6938656040fa244!2m2!1d-74.0778645!2d4.6281035?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
@@ -34,6 +36,8 @@ const wedding = {
         place: "Casa Berrio Salones y Recepciones Sede Palermo",
 
         address: "Teusaquillo, Bogotá D.C.",
+
+        date: "24 de Octubre de 2026",
 
         time: "6:00 PM",
 

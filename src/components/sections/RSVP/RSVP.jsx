@@ -254,7 +254,7 @@ Gracias por hacernos parte de este momento tan especial.`;
                     <div className="rsvp-card-inner">
                         <div className="rsvp-card-heading">
                             <span className="rsvp-card-kicker">
-                                Camilo <span>&</span> Sofía
+                                Cesar Camilo <span>&</span> Laura Sofía
                             </span>
 
                             <div className="rsvp-heading-divider">
@@ -296,7 +296,7 @@ Gracias por hacernos parte de este momento tan especial.`;
                                 </div>
 
                                 <span className="rsvp-thank-you-overline">
-                                    Camilo &amp; Sofía
+                                    Cesar Camilo &amp; Laura Sofía
                                 </span>
 
                                 <h4>

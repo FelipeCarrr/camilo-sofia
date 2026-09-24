@@ -1,181 +1,145 @@
-.dresscode{
-
-    background:#F4F9FE;
-
-    padding:110px 20px;
-
+.dresscode {
+    background: #F4F9FE;
+    padding: 65px 20px;
 }
 
-.dress-card{
-
-    max-width:700px;
-
-    margin:60px auto 0;
-
-    background:white;
-
-    border-radius:30px;
-
-    padding:50px;
-
-    box-shadow:0 20px 45px rgba(0,0,0,.08);
-
-    text-align:center;
-
+.dress-card {
+    max-width: 700px;
+    margin: 35px auto 0;
+    background: white;
+    border-radius: 24px;
+    padding: 35px 30px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.07);
+    text-align: center;
 }
 
-.dress-icon{
-
-    width:80px;
-
-    height:80px;
-
-    margin:0 auto 25px;
-
-    border-radius:50%;
-
-    background:#8FC5F2;
-
-    color:white;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    font-size:34px;
-
+.dress-icon {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    background: #8FC5F2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 
-.dress-card h3{
-
-    font-size:36px;
-
-    color:#49677F;
-
-    margin-bottom:15px;
-
-    font-family:"Cormorant Garamond",serif;
-
+.dress-card h3 {
+    font-size: 32px;
+    color: #49677F;
+    margin: 0 0 12px;
+    font-family: "Cormorant Garamond", serif;
 }
 
-.dress-card p{
-
-    color:#6B879D;
-
-    margin-bottom:40px;
-
-    font-size:18px;
-
+.dress-card p {
+    color: #6B879D;
+    margin: 0 0 28px;
+    font-size: 17px;
+    line-height: 1.5;
 }
 
-.color-list{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:35px;
-
-    flex-wrap:wrap;
-
+.color-list {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
 }
 
-.color-item{
-
-    display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:12px;
-
+.color-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
 }
 
-.color-circle{
-
-    width:70px;
-
-    height:70px;
-
-    border-radius:50%;
-
-    border:2px solid #D6E5F1;
-
-    box-shadow:0 8px 18px rgba(0,0,0,.08);
-
+.color-circle {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid #D6E5F1;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
 }
 
-.color-item span{
-
-    font-size:15px;
-
-    color:#49677F;
-
+.color-item span {
+    font-size: 14px;
+    color: #49677F;
 }
 
-.thanks{
-
-    margin-top:45px;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    gap:10px;
-
-    color:#8FC5F2;
-
-    font-size:17px;
-
+.thanks {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #8FC5F2;
+    font-size: 16px;
 }
 
-@media(max-width:768px){
-
-    .dresscode{
-
-        padding:90px 20px;
-
+@media (max-width: 768px) {
+    .dresscode {
+        padding: 48px 18px;
     }
 
-    .dress-card{
-
-        padding:35px 25px;
-
+    .dress-card {
+        margin-top: 25px;
+        padding: 28px 20px;
+        border-radius: 20px;
     }
 
-    .dress-card h3{
-
-        font-size:30px;
-
+    .dress-icon {
+        width: 58px;
+        height: 58px;
+        margin-bottom: 15px;
+        font-size: 26px;
     }
 
-    .color-list{
-
-        gap:20px;
-
+    .dress-card h3 {
+        font-size: 28px;
     }
 
-    .color-circle{
-
-        width:60px;
-
-        height:60px;
-
+    .dress-card p {
+        font-size: 16px;
+        margin-bottom: 22px;
     }
 
-    .thanks{
-
-        flex-direction:column;
-
-        gap:15px;
-
-        text-align:center;
-
+    .color-list {
+        gap: 18px;
     }
 
+    .color-circle {
+        width: 52px;
+        height: 52px;
+    }
+
+    .color-item span {
+        font-size: 13px;
+    }
+
+    .thanks {
+        margin-top: 25px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .dresscode {
+        padding: 40px 14px;
+    }
+
+    .dress-card {
+        padding: 24px 16px;
+    }
+
+    .color-list {
+        gap: 14px;
+    }
+
+    .color-circle {
+        width: 46px;
+        height: 46px;
+    }
 }
