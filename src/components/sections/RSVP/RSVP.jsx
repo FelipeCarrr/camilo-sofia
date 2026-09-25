@@ -34,7 +34,7 @@ export default function RSVP() {
     const [savedAttendance, setSavedAttendance] = useState(null);
     const [savedGuests, setSavedGuests] = useState(0);
 
-    const phone = "573223034487";
+    const phone = "573143016235";
     const token = new URLSearchParams(window.location.search).get("invitacion");
 
     useEffect(() => {
